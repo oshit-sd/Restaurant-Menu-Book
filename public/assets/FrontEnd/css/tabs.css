@@ -1,0 +1,61 @@
+.tabs {
+  margin-top: -6px;
+  padding: 5px;
+  list-style: none;
+  font-family: -webkit-body;
+}
+h2.headLine {
+  color: #37a737 !important;
+  font-size: 25px;
+}
+p.pera {
+  margin: 0 0 15px;
+  color: #1a0765 !important;
+  letter-spacing: 0.5px;
+}
+
+.tabs li {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 13px;
+  color: #0e437b;
+  font-weight: bold;
+  font-family: sans-serif;
+  width: 100%;
+  border: 1px solid #0e437b;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px;
+}
+.btnDesign {
+  font-size: 13px;
+  color: #fff;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.tabs li:hover {
+  background: #0e437b;
+  transition: 0.5s;
+  color: #fff;
+  cursor: pointer;
+}
+
+.tabs li.current {
+  background: #0e437b;
+  color: #fff;
+}
+
+.tab-content {
+  display: none;
+  background: #fff;
+  padding: 15px;
+  color: #000;
+  line-height: 1.4;
+  margin-top: -16px;
+}
+
+.tab-content.current {
+  display: inherit;
+}

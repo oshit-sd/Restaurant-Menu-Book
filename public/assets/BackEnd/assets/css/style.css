@@ -1,0 +1,118 @@
+.ListHeader {
+padding-left: 20px;
+margin-bottom: -5px;
+margin-top: -0px;
+font-weight: bold;
+}
+
+.labelSize {
+font-size: 8px;
+padding: 2px 6px;
+}
+
+.labelSize i {
+color: #eee;
+font-size: 12px;
+}
+
+.labelSize2 {
+font-size: 8px;
+padding: 2px 6px;
+margin-left: -5px;
+margin-top: 3px;
+}
+
+.labelSize2 i {
+color: #eee;
+font-size: 12px;
+}
+
+.labelSize3 {
+font-size: 8px;
+padding: 2px 6px;
+margin-left: -5px;
+margin-top: 2px;
+}
+
+.labelSize3 i {
+color: #eee;
+font-size: 12px;
+}
+
+.plus {
+margin-left: -22px;
+}
+
+.selects {
+width: 220px;
+}
+
+.fancybox-close:after {
+content: "" !important;
+}
+
+#fancybox-loading {
+background: unset !important;
+}
+
+#fancybox-loading:after {
+content: "" !important;
+}
+
+th {
+    font-weight: bold;
+}
+
+.input-group-addon {
+    background: #e6f9f7b3 !important;
+    border: 1px solid #23bdbb;
+}
+
+.form-control {
+    background: #e6f9f7b3 !important;
+    border: 1px solid #23bdbb;
+}
+
+.select2-choice {
+    background: #e6f9f7b3 !important;
+    border: 1px solid #23bdbb;
+}
+
+.panel-flat {
+    background: #b5ece5;
+    border: 1px solid #23bdbb;
+}
+
+.control-label {
+    font-weight: 450;
+}
+
+input {
+    font-weight: 450;
+}
+
+th {
+    border: 1px solid #23bdbb !important;
+}
+
+td {
+    border: 1px solid #23bdbb !important;
+}
+
+.dataTables_filter input {
+    background-color: #d7f5f1 !important;
+    border: 1px solid #23bdbb !important;
+}
+
+.note-editable {
+    background: #d7f5f1;
+    height: 250px !important;
+}
+
+.note-toolbar btn-toolbar {
+    background: #d7f5f1;
+}
+
+.note-editor {
+    border: 1px solid #23bdbb;
+}

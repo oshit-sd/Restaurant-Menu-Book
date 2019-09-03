@@ -1,0 +1,60 @@
+.eh_mainPortion {
+    width: 100%;
+    margin-top: 10px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.eh_leftQtyPortion {
+    width: 15%;
+    float: left;
+    border-right: 1px solid #ddd;
+}
+
+.eh_enhancePortion {
+    width: 20%;
+    float: left;
+}
+
+.eh_bodyPorion {
+    width: 65%;
+    float: left;
+}
+
+.headName {
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+.eh_button {
+    padding: 5px;
+}
+
+.eh_btnDesign {
+    width: 100%;
+    text-align: center;
+}
+
+.eh_qty {
+    font-family: sans-serif;
+    margin: 0 0 15px;
+}
+
+.eh_qty>a {
+    padding: 5px 25px;
+    font-size: 13px;
+    font-weight: bold;
+    background: #fff;
+    color: #222;
+    border: 1px solid #28a745;
+    border-radius: 3px;
+}
+
+.eh_qty>a:hover {
+    cursor: pointer;
+}
+
+.eh_selected {
+    background: #28a745 !important;
+    color: #fff !important;
+}

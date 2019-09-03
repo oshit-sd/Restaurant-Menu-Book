@@ -1,0 +1,67 @@
+.cartContent {
+    width: 97%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.headName {
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+.cl_fullContent {
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.cl_leftContent {
+    width: 26%;
+    float: left;
+}
+
+.cl_rightContent {
+    width: 74%;
+    float: left;
+}
+
+.cl_categoryN {
+    float: left;
+    width: 97%;
+    background: #d7faeb;
+    color: #3b9a7c;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #579a0d;
+}
+
+.cl_button {
+    height: 40px !important;
+    width: 40px !important;
+    background: #ef8829;
+    color: #fff;
+    border: 1px solid #ef8829;
+}
+
+.cl_plusBtn {
+    margin-left: -3px;
+}
+
+.cl_subtotal {
+    width: 97%;
+    float: left;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.cl_confirmButton {
+    width: 97%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.cl_confirmButton>center>a {
+    cursor: pointer;
+}

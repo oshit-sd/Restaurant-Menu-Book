@@ -1,0 +1,25 @@
+.si_enhanceQty {
+    margin: auto;
+    padding: 2px 5px;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.fa-trash-o:before {
+    COLOR: #e84343 !important;
+    font-size: 14px !important;
+    padding-left: 5px !important;
+    cursor: pointer;
+}
+
+.si_qtyDiv {
+    float: left;
+    padding: 5px;
+    width: 100%;
+    padding-bottom: 5px;
+    min-height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}

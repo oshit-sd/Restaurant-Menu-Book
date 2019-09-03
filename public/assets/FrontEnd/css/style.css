@@ -1,0 +1,168 @@
+.mainContent {
+  width: 100%;
+  min-height: 500px;
+}
+.QtyInput {
+  width: 50px;
+  height: 40px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-left: -5px;
+  margin-right: -4px;
+  padding-top: 0px;
+  border: 2px solid #ef8829;
+}
+.chilli {
+  margin-bottom: 5px;
+}
+.vegetarian {
+  height: 25px;
+  width: 25px;
+}
+.info {
+  height: 16px;
+  width: 18px;
+}
+.qtyPortion {
+  margin-right: 10px;
+}
+.product-imageblock > a > img {
+  width: 220px;
+  height: 160px;
+}
+.myGrid {
+  height: 210px;
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid #222;
+  border-radius: 5px 5px 0px 0px;
+  box-shadow: 1px 1px 10px #222;
+  background: #fff;
+}
+.imgGrid {
+  height: 100%;
+  width: 100%;
+}
+.gridText {
+  margin: 0 0 20px;
+  text-align: center;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  background: #1b1a1a;
+  color: #fff;
+  padding: 5px;
+  height: 45px;
+  line-height: 32px;
+  box-shadow: 1px 1px 10px #222;
+}
+.gridText2 {
+  margin: 0 0 20px;
+  text-align: center;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  background: #1b1a1a;
+  color: #fff;
+  padding: 5px;
+  height: 45px;
+  box-shadow: 1px 1px 10px #222;
+  padding: 0px;
+}
+.table {
+  margin-bottom: 20px;
+  border-radius: 5px !important;
+  position: relative;
+  color: #fff;
+}
+.tableLeft {
+  width: 50%;
+  float: left;
+  height: 100px;
+  text-align: left;
+  padding: 10px;
+}
+.tableRight {
+  width: 50%;
+  float: left;
+  height: 100px;
+  text-align: right;
+  padding: 10px;
+}
+.tableMiddle {
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+.tableBottom {
+  width: 100%;
+  float: left;
+  position: absolute;
+  bottom: 5px;
+  padding: 10px;
+}
+.tableName {
+  background-image: linear-gradient(#0e0900, #0b013e);
+  width: 100%;
+  padding: 5px 0px;
+  text-align: center;
+}
+
+
+.row2 {
+  margin: 0 !important;
+}
+.carList {
+  margin: 10px;
+  width: 650px;
+}
+.btn-danger {
+  background-color: #d21616;
+}
+
+    .categoryName {
+        font-size: {
+                {
+                $subcategory->fld_front_size
+            }
+        }
+
+        px !important;
+
+        font-weight: {
+                {
+                ($subcategory->fld_bold=='Yes')? 'bold': ''
+            }
+        }
+
+         !important;
+        color:#ef8829;
+    }
+
+    .enhancement {
+        font-size: 23px;
+        margin-right: 10px;
+        line-height: 40px;
+    }
+
+    .qtyRemove>i {
+        height: 40px;
+        width: 40px;
+        background: #ef8829;
+        padding-top: 12px;
+        color: #fff;
+    }
+
+    .qtyRemove>i:hover {
+        background: #000;
+        color: #fff;
+    }
+
+    .prices {
+        margin: 12px !important;
+        text-align: left;
+        font-size: 14px !important;
+    }
+
+    .chilliDietaries {
+        margin-top: 50px
+    }
