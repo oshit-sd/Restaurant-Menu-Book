@@ -5,7 +5,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Controllers\Setting\Tables\TableSectionController;
 use App\Model\BookingTable;
 use App\Model\Tables\Table;
 use App\Traits\changeTableStatus;
